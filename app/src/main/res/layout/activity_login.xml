@@ -27,6 +27,13 @@
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageIcon"
+        android:contentDescription="@string/icon"
+        android:src="@drawable/icon" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,7 +43,8 @@
         android:paddingBottom="20dp"
         android:textSize="40sp"
         android:textIsSelectable="false"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp" />
 
     <ProgressBar
         style="?android:attr/progressBarStyleLarge"

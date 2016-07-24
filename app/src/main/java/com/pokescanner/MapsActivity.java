@@ -287,7 +287,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         LocationManager cm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         return cm.isProviderEnabled(LocationManager.GPS_PROVIDER);
     }
-
     public void searchRadiusDialog() {
         scanValue = sharedPreferences.getInt("scanvalue",5);
 
