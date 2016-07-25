@@ -134,7 +134,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         showProgressbar(true);
         UiUtils.hideKeyboard(etPassword);
 
-
+        System.out.println("Toast");
         showToast(R.string.TRYING_PTC_LOGIN);
         LOGIN_METHOD = User.PTC;
         AuthPTCLoader authloader = new AuthPTCLoader(username,password);
