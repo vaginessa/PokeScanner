@@ -1,7 +1,7 @@
 language: android
 install:
-    - echo y | android update sdk -u -a -t tool &> /dev/null
-    - echo y | android update sdk --no-ui --all --filter "build-tools-24.0.1" &> /dev/null
-    - echo y | android update sdk --no-ui --all --filter "android-24" &> /dev/null
+    - echo y | android update sdk -u -a -t tool > /dev/null
+    - echo y | android update sdk --no-ui --all --filter "build-tools-24.0.1" > /dev/null
+    - echo y | android update sdk --no-ui --all --filter "android-24" > /dev/null
 
 jdk: oraclejdk8
